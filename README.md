@@ -70,7 +70,7 @@ HTML5学堂中的有部分成员的确当前就职于培训机构“厦门博看
 
 [1]: http://dwz.cn/h5course-html-1
 
-[2]: 
+[2]: http://dwz.cn/h5course-html-2
 
 [3]: http://www.h5course.com
 
