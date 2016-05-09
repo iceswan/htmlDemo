@@ -1,0 +1,91 @@
+@charset 'utf-8';
+html{color:#000;background:#FFF;font-family:'Microsoft YaHei',sans-serif,Arial;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong{padding:0;margin:0;font-family:'Microsoft YaHei',sans-serif,Arial;}
+body {font-size: 16px;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;}
+a{text-decoration:none; color:#333; outline:none;}
+a:hover{text-decoration:underline;}
+var,em,strong{font-style:normal;}
+em,strong,th,var{font-style:inherit;font-weight:inherit;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,button,textarea,select,optgroup,option{font-family:inherit; font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:after {
+	content: '\200B';
+	clear: both;
+	display: block;
+	height: 0px;
+}
+
+.wrap {
+	padding:30px 20px;
+	background:#fff;
+}
+.wrap h1 {
+	font-size:26px;
+	font-weight:700;
+	line-height:56px;
+	text-align:center
+}
+.wrap h2 {
+	margin:12px 0 6px;
+	font-size:22px;
+	font-weight:700;
+	line-height:36px;
+	color:#39f
+}
+.wrap h3 {
+	font-size:18px;
+	font-weight:700;
+	line-height:28px;
+}
+.wrap p {
+	margin:1em 0;
+	line-height: 20px;
+}
+.wrap .code {
+	max-height: 320px;
+	overflow-y: auto;
+	margin: 1em 0;
+	padding-left: 40px;
+	border: 1px solid #fff;
+	background: rgba(51,153,255,.1);
+	font: 14px courier,arial,sans-serif;
+	list-style: decimal;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-box-shadow:0 0 0 1px rgba(51,153,255,.4);
+	-moz-box-shadow:0 0 0 1px rgba(51,153,255,.4);
+	box-shadow:0 0 0 1px rgba(51,153,255,.4)
+}
+.wrap .code li {
+	background:rgba(51,153,255,.1);
+	border-left:2px solid #fff;
+	padding-left:4px;
+	list-style:decimal;
+	line-height:18px
+}
+.wrap .code li:nth-child(2n) {
+	background:rgba(51,153,255,.2)
+}
+
+.wrap em {
+	color: #39f;
+	font-weight: bold;
+}
+.wrap strong {
+	font-weight: bold;
+}
+.wrap span {
+	color: #39f;
+}
+.wrap hr {
+	color: #ccc;
+}
